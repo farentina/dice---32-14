@@ -1,5 +1,6 @@
 {
     "name": "Dice สันติสุข โพธิ์แย้ม ม.3/2 14",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
