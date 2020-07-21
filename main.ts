@@ -1,6 +1,5 @@
 let Dice = 0
 input.onGesture(Gesture.Shake, function () {
-    Dice = randint(0, 5)
     if (Dice == 0) {
         basic.showLeds(`
             . . . . .
@@ -58,4 +57,5 @@ input.onGesture(Gesture.Shake, function () {
             . . . . .
             `)
     }
+    Dice = randint(0, 5)
 })
